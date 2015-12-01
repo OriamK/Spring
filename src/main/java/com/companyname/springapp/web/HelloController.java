@@ -20,7 +20,7 @@ public class HelloController {
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        logger.info("Returning hello view");
+        logger.info("Retornando un hello view");
 
         return new ModelAndView("hello.jsp");
     }

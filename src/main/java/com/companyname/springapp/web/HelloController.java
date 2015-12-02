@@ -21,8 +21,6 @@ public class HelloController {
             throws ServletException, IOException {
 
         logger.info("Retornando hello view");
-        logger.info("Cambios en la nueva rama");
-
 
         return new ModelAndView("hello.jsp");
     }
